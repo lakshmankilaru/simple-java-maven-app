@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git') {
             steps{
-                git 'https://github.com/satishgudapati/game-of-life.git'
+                git 'https://github.com/lakshmankilaru/simple-java-maven-app.git'
             }
         }
         stage('maven build stage') {
